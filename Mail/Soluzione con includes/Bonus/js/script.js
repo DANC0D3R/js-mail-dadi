@@ -8,10 +8,12 @@ function controlloAcesso(){
     // Condizioni
     // Indirizzo email è autorizzato
     if (emailAutorizzate.includes(email)){
+        console.log("Accesso consentito")
         document.getElementById('risultatocontrollo').innerHTML = 'Accesso consentito';
     } 
     // Indirizzo email non è autorizzato
     else{
+        console.log("Accesso negato")
         document.getElementById('risultatocontrollo').innerHTML = 'Accesso negato';
     }
 }

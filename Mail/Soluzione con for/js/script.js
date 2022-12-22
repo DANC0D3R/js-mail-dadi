@@ -17,9 +17,9 @@ function controlloAcesso(){
     }
     // Verifica del valore di isAuthorized e stampa del risultato
     if (isAuthorized){
-    console.log('Accesso consentito');
+        console.log('Accesso consentito');
     } else{
-    console.log('Accesso negato');
+        console.log('Accesso negato');
     }
 }
 controlloAcesso();
