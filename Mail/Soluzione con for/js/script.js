@@ -11,12 +11,11 @@ function controlloAcesso(){
     for (let i = 0; i < emailAutorizzate.length; i++){
         // Se l'indirizzo email è presente nella lista, isAuthorized ha valore true e il ciclo si interrompe
         if (emailAutorizzate[i] == email){
-            isAuthorized = true;
-            break;
+            isAuthorized isAuthorized = true;;
         }
     }
     // Verifica del valore di isAuthorized e stampa del risultato
-    if (isAuthorized){
+    if (isAuthorized == true){
         console.log('Accesso consentito');
     } else{
         console.log('Accesso negato');
